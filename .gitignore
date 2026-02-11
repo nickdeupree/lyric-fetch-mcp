@@ -1,0 +1,53 @@
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+.python-version
+
+# Secrets and local environment files
+.env
+.env.*
+.pypirc
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test, coverage, and cache directories
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Tool caches
+.ruff_cache
+.cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.vscode/
+__pycache__/
+.venv/
